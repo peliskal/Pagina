@@ -1,0 +1,75 @@
+*{
+	margin: 0; padding: 0;
+}
+
+header{
+	widows: 100%; height: 200px;
+	background-image: url(https://github.com/peliskal/Pagina/blob/main/LRM_EXPORT_11787723275701_20190924_183211849.jpg?raw=true);
+	background-position: center;
+	background-size: 310px;
+}
+
+header h1{
+	color: rgb(255,255,255);
+	font-size: 80px;
+	text-align: center;
+}
+
+header > p{
+	text-align: justify;
+	margin:10px  auto;
+	width: 90%; height: auto;
+	color: rgb(255,255,255);
+	font-size: 20px;
+}
+
+.container{
+	margin: 100px 0 100px 0;
+	width: 100%; height: auto;
+	text-align: center;
+	background: rgb(240,240,240);
+}
+
+.container div {
+	margin: 10px;
+	display: inline-block;
+}
+
+.container div > img{
+width: auto; height: 400px;
+}
+
+footer{
+	margin-bottom: -1px;
+	width: 100%; height: auto;
+	background: rgb(213,213,212);
+}
+.adorno{
+	border-radius: 20%;
+	width: 80%;
+	margin: auto;
+	background-color: rgb(215,215,212);
+}
+
+footer div {
+	width: 100%;
+	text-align: center;
+	padding: 100px 0 100px 0;
+}
+
+footer div li{
+	display: inline-block;
+	margin: 0 65px 0 65px;
+	border-radius: 20%;
+}
+
+footer div li > img{
+	width: 100px; height: 100px;
+}
+
+footer div li > a{
+	position: absolute;
+	width: 95px; height: 95px;
+}
+
+
